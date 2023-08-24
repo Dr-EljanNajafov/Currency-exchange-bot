@@ -9,4 +9,8 @@ public interface CurrencyExchangeService {
     String getEURExchangeRate() throws ServiceException;
 
     String getUAHExchangeRate() throws ServiceException;
+
+    void clearUSDCache();
+    void clearEURCache();
+    void clearUAHCache();
 }

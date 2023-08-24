@@ -56,7 +56,7 @@ public class CurrencyExchangeBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "XXX_XXX_XXX";
+        return "phd_currency_bot";
     }
 
 

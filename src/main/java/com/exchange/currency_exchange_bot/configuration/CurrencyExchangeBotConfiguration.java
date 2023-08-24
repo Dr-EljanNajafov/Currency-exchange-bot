@@ -2,13 +2,17 @@ package com.exchange.currency_exchange_bot.configuration;
 
 import com.exchange.currency_exchange_bot.bot.CurrencyExchangeBot;
 import okhttp3.OkHttpClient;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 @Configuration
+@EnableCaching
+@EnableScheduling
 public class CurrencyExchangeBotConfiguration {
 
     @Bean
