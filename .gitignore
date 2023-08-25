@@ -3,7 +3,11 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+<<<<<<< HEAD
 src/main/resources/application.properties
+=======
+!**/src/main/resources/application.properties
+>>>>>>> 44b8c5d6ac3658f3a8f81e51a6b552cc1d78959d
 
 ### STS ###
 .apt_generated
